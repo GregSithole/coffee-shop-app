@@ -12,7 +12,7 @@ program.command('list')
         list();
     });
 
-program.command('order <type>')
+program.command('order')
     .alias('o')
     .description('Order a coffee')
     .action(() => {
